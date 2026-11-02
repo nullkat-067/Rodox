@@ -1,0 +1,17 @@
+{
+  "name": "rodox",
+  "version": "2.0.0",
+  "description": "RODOX — Intelligent Terminal AI with multi-provider support (Gemini by default, or any OpenAI-compatible provider). Made by NullKat Development.",
+  "main": "rodox.js",
+  "bin": { "rodox": "rodox.js" },
+  "scripts": { "start": "node rodox.js" },
+  "engines": { "node": ">=20" },
+  "author": "NullKat Development",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@google/genai": ">=1.0.0",
+    "chalk": "^4.1.2",
+    "cli-highlight": "^2.1.11"
+  }
+}
